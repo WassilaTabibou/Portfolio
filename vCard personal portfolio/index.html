@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="Wassila Tabibou" width="80">
         </figure>
 
         <div class="info-content">
@@ -123,25 +123,25 @@
 
         </ul>
 
-        <div class="separator"></div> 
+        <div class="separator"></div>
 
-          <ul class="social-list">
+        <ul class="social-list">
 
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-          </ul>
+        </ul>
 
-        
+
       </div>
 
     </aside>
@@ -165,23 +165,23 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Accueil</button>
+            <a href="#accueil" class="navbar-link active" data-nav-link>Accueil</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Mes Documents</button>
+            <a href="#mes documents" class="navbar-link" data-nav-link>Mes Documents</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projets</button>
+            <a href="#projets" class="navbar-link" data-nav-link>Projets</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Veille Technologique</button>
+            <a href="#veille technologique" class="navbar-link" data-nav-link>Veille Technologique</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
         </ul>
@@ -196,7 +196,7 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="accueil" id="accueil">
+      <article class="about  active" data-page="accueil">
 
         <section class="about-text">
           <p>
@@ -258,7 +258,7 @@
                 <h4 class="h4 service-item-title">Techniques (Soft Skills Techniques)</h4>
 
                 <p class="service-item-text">
-
+                  Node.js, T-SQL, Vue.js, Java, PHP, Javascript, WLanguage
                 </p>
               </div>
 
@@ -274,8 +274,7 @@
                 <h4 class="h4 service-item-title">Interpersonnelles (Soft Skills)</h4>
 
                 <p class="service-item-text">
-                  Je privilégie le travail en équipe et une gestion
-                  efficace du temps pour garantir la productivité et le respect des échéances
+                  Polyvalence technologique, Esprit d'équipe et collaboration,Gestion des priorités
                 </p>
               </div>
 
@@ -304,7 +303,7 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">SIFA LOGISTICS</h4>
-              <span>2024 - 2026</span>
+              <span>2025 - 2026</span>
 
               <p class="timeline-text">
                 En tant qu’Apprentie Web Developer chez SIFA LOGISTICS, je participe au
@@ -355,97 +354,10 @@
 
 
 
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-        <!--
-          - project modal
-        -->
-
-        <div class="modal-container" data-project-modal-container>
-
-          <div class="overlay" data-project-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-project-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/project-1.jpg" alt="Project Image" width="80" data-project-modal-img>
-              </figure>
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-project-modal-title></h4>
-
-              <p data-project-modal-category></p>
-
-              <div data-project-modal-description>
-                <!-- La description du projet sera injectée ici -->
-              </div>
-
-              <div class="modal-github-link">
-                <br>
-                <a href="#" class="form-btn" target="_blank" data-project-modal-github-link>
-                  <ion-icon name="logo-github"></ion-icon>
-                  <span>Voir sur GitHub</span>
-                </a>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
 
         <br>
         <!--
-          - clients
+          - outils et technologies dans accueil
         -->
 
         <section class="outils">
@@ -576,14 +488,14 @@
           <ul class="document-list">
 
             <li class="document-item  active" data-filter-item data-category="rapports">
-              <a href="#">
+              <a href="./assets/documents/RAPPORT DE STAGE.docx" download>
 
                 <figure class="document-img">
                   <div class="document-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="Rapport de stage" loading="lazy">
+                  <img src="./assets/images/image rapport de stage.png" alt="Rapport de stage" loading="lazy">
                 </figure>
 
                 <h3 class="document-title">Rapport de Stage 1ère Année</h3>
@@ -593,36 +505,21 @@
               </a>
             </li>
 
-            <li class="document-item  active" data-filter-item data-category="rapports">
-              <a href="#">
 
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="Rapport de projet" loading="lazy">
-                </figure>
-
-                <h3 class="document-title">Rapport de Projet AP</h3>
-
-                <p class="document-category">Rapport</p>
-
-              </a>
-            </li>
 
             <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="#">
+              <a href="./assets/documents/Wassila_AttestationStage.pdf" target="_blank">
 
                 <figure class="document-img">
                   <div class="document-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="Attestation de compétences" loading="lazy">
+                  <img src="./assets/images/image attestation de stage.png" alt="Attestation de compétences"
+                    loading="lazy">
                 </figure>
 
-                <h3 class="document-title">Attestation de Compétences</h3>
+                <h3 class="document-title">Attestation de Stage</h3>
 
                 <p class="document-category">Attestation</p>
 
@@ -630,46 +527,20 @@
             </li>
 
             <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="#">
+              <a href="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.xlsx" target="_blank">
 
                 <figure class="document-img">
                   <div class="document-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="Attestation de formation" loading="lazy">
+                  <img src="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.png" alt="Fiche de synthèse E5" loading="lazy">
                 </figure>
 
-                <h3 class="document-title">Attestation de Formation</h3>
+                <h3 class="document-title">Fiche de Synthèse E5</h3>
 
                 <p class="document-category">Attestation</p>
 
-              </a>
-            </li>
-
-            <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="#">
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-5.png" alt="Attestation 3" loading="lazy">
-                </figure>
-                <h3 class="document-title">Attestation 3</h3>
-                <p class="document-category">Attestation</p>
-              </a>
-            </li>
-
-            <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="#">
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-6.png" alt="Attestation 4" loading="lazy">
-                </figure>
-                <h3 class="document-title">Attestation 4</h3>
-                <p class="document-category">Attestation</p>
               </a>
             </li>
 
@@ -688,8 +559,8 @@
         - #PROJETS
       -->
 
-      <article class="projets" data-page="projets" id="projets">
-
+      <article class="projets" data-page="projets">
+        <br>
         <header>
           <h2 class="h2 article-title">Projets</h2>
         </header>
@@ -745,154 +616,83 @@
           </div>
 
           <ul class="projet-list">
+            <li class="projet-item active" data-filter-item data-category="projets ecole" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="coreflow" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/Coreflow.png" alt="CoreFlow Intranet" loading="lazy">
+              </figure>
+              <h3 class="projet-title">CoreFlow</h3>
+              <p class="projet-category">Projet Ecole</p>
+            </li>
 
             <li class="projet-item active" data-filter-item data-category="projets entreprise" data-project-item>
               <figure class="projet-img">
-                <div class="projet-item-icon-box">
+                <div class="projet-item-icon-box" data-project="champobligatoire" style="cursor: pointer;">
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
-                <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" data-project-avatar>
+                <img src="./assets/images/gallery_ChampObligatoire1.png" alt="champobligatoire" loading="lazy">
               </figure>
 
-              <h3 class="projet-title" data-project-title>Finance</h3>
-              <p class="projet-category" data-project-category>Projet Entreprise</p>
+              <h3 class="projet-title">Modèle de champ obligatoire</h3>
+              <p class="projet-category">Projet Entreprise</p>
+            </li>
 
-              <!-- Contenu caché pour la modale -->
-              <div class="project-details" style="display: none;">
-                <div data-project-description>
-                  <p>Ceci est la description détaillée du projet Finance. Il vise à simplifier la gestion financière pour les petites entreprises.</p>
-                  <br>
-                  <p><b>Objectifs :</b> Créer un tableau de bord intuitif, automatiser les rapports et assurer la sécurité des données.</p>
-                  <p><b>Outils :</b> PHP, Symfony, MySQL, Chart.js</p>
+
+            <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="gamehub" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
                 </div>
-                <div data-project-github-link>https://github.com/votre-pseudo/projet-finance</div>
-              </div>
+                <img src="./assets/images/Gallery_Gamehub1.png" alt="gamehub" loading="lazy">
+              </figure>
+              <h3 class="projet-title">GameHub</h3>
+              <p class="projet-category">Projet Ecole</p>
             </li>
 
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">Orizon</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
+            <li class="projet-item  active" data-filter-item data-category="projets entreprise" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="triexport" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/Gallery_TriExport3.png" alt="triexport" loading="lazy">
+              </figure>
+              <h3 class="projet-title">Tri et exports Excel de blocs de télémétrie</h3>
+              <p class="projet-category">Projet Entreprise</p>
             </li>
 
-            <li class="projet-item  active" data-filter-item data-category="projets entreprise">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">Fundo</h3>
-
-                <p class="projet-category">Projet Entreprise</p>
-
-              </a>
+            <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="piscine" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/Gallery_GestionMateriel1.png" alt="piscine" loading="lazy">
+              </figure>
+              <h3 class="projet-title">Piscine</h3>
+              <p class="projet-category">Projet Ecole</p>
             </li>
 
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">Brawlhalla</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
+            <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="appliouf" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project-5.png" alt="appliouf" loading="lazy">
+              </figure>
+              <h3 class="projet-title">AppliOuf</h3>
+              <p class="projet-category">Projet Ecole</p>
             </li>
 
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">DSM.</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
-            </li>
-
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">MetaSpark</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
-            </li>
-
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">Summary</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
-            </li>
-
-            <li class="projet-item  active" data-filter-item data-category="projets ecole">
-              <a href="#">
-
-                <figure class="projet-img">
-                  <div class="projet-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="projet-title">Task Manager</h3>
-
-                <p class="projet-category">Projet Ecole</p>
-
-              </a>
+            <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="freedommoney" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project-6.png" alt="freedommoney" loading="lazy">
+              </figure>
+              <h3 class="projet-title">Freedom Money</h3>
+              <p class="projet-category">Projet Ecole</p>
             </li>
 
           </ul>
@@ -902,232 +702,208 @@
       </article>
 
 
+      <article class="project-details" data-page="project-details">
 
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="veille technologique">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
+        <header class="project-details-header">
+          <button class="back-btn" data-back-to-projects-btn>
+            <ion-icon name="chevron-back-outline"></ion-icon>
+            <span>Retour aux projets</span>
+          </button>
         </header>
 
-        <section class="blog-posts">
+        <div class="project-details-content">
 
-          <ul class="blog-posts-list">
+          <figure class="project-cover-wrapper">
+            <img src="" alt="Couverture" data-detail-cover>
+          </figure>
 
-            <li class="blog-post-item">
-              <a href="#">
+          <h2 class="h2 article-title" data-detail-title></h2>
+          <p class="project-category-detail" data-detail-category></p>
+          <p class="project-date-detail" data-detail-date style="color: var(--light-gray); font-style: italic; margin-top: 5px;"></p>
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
+          <div class="separator"></div>
 
-                <div class="blog-content">
+          <div class="project-info-body" data-detail-content>
+          </div>
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+          <div class="separator"></div>
 
-                    <span class="dot"></span>
+          <section class="detail-section">
+            <h3 class="h3 item-title">Galerie</h3>
+            <div class="project-gallery-grid" data-detail-gallery>
+            </div>
+          </section>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
+          <div class="project-actions">
+            <a href="#" target="_blank" class="form-btn" data-detail-github>
+              <ion-icon name="logo-github"></ion-icon>
+              <span>Voir sur GitHub</span>
+            </a>
+            <a href="#" class="form-btn" download data-detail-download>
+              <ion-icon name="cloud-download-outline"></ion-icon>
+              <span>Télécharger</span>
+            </a>
+          </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
+        </div>
 
       </article>
 
+      <div class="lightbox-overlay" data-lightbox>
 
+        <button class="lightbox-close-btn" data-lightbox-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
 
+        <button class="lightbox-control-btn prev" data-lightbox-prev>
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
 
+        <button class="lightbox-control-btn next" data-lightbox-next>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+
+        <div class="lightbox-content">
+          <img src="" alt="Zoom Projet" data-lightbox-img>
+        </div>
+
+      </div>
+
+      <!----------------------------------
+        - #VEILLE TECHNOLOGIQUE 
+      ----------------------------------->
+<article class="veille technologique" data-page="veille technologique">
+        <br>
+        <header>
+          <h2 class="h2 article-title">Veille Technologique</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <strong>Sujet :</strong> L’émergence du Vibecoding et la mutation du métier de développeur vers l’iCoding (2024 – 2026).<br><br>
+            Cette veille porte sur la transformation radicale des méthodes de développement logiciel sous l'impulsion de l'Intelligence Artificielle générative. On observe un passage d'un codage "manuel" et syntaxique à un pilotage "agentique" où l'intention du développeur prime sur l'écriture des lignes de code.
+          </p>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="hardware-chip-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Thématique 1 : Le Vibecoding (L'ère du "Flux")</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">L'émergence</h4>
+              <span>2024 - 2025</span>
+              <p class="timeline-text">
+                Apparu massivement entre 2024 et 2025, le Vibecoding définit une nouvelle manière d'interagir avec les outils de développement.<br><br>
+                <strong>Définition :</strong> Le terme "Vibecoding" (popularisé par Andrej Karpathy) désigne un flux de travail où le développeur ne se concentre plus sur la syntaxe, mais sur la "vibe" (l'intention et le résultat visuel/fonctionnel).<br><br>
+                <strong>Manipulation par "Pans" :</strong> Contrairement au codage traditionnel, le développeur demande à l'IA de générer ou de modifier des "pans" (blocs entiers) de code d'un seul coup (ex: tout un système de gestion d'utilisateurs).<br><br>
+                <strong>Itération par Flux :</strong> Le cycle de développement devient une conversation. On demande une modification en langage naturel, on teste immédiatement, et on ajuste la requête jusqu'à satisfaction.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-working-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Thématique 2 : L'iCoding (Le métier en 2026)</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Le Développeur "Chef d'Orchestre"</h4>
+              <span>2026</span>
+              <p class="timeline-text">
+                En 2026, le concept d'iCoding (Intelligent Coding) est devenu la norme. Le métier de développeur ne disparaît pas, il devient "augmenté".<br><br>
+                La rédaction de code ne représente plus que 20% du temps de travail. Les 80% restants sont dédiés à la conception d'architecture et au pilotage d'agents IA.<br><br>
+                <strong>L’audit comme compétence n°1 :</strong> Puisque l'IA génère la majorité du code, la valeur ajoutée du développeur réside dans sa capacité à lire, auditer et sécuriser les fichiers générés pour éviter la dette technique et les failles de sécurité.<br><br>
+                <strong>Abstraction de la complexité :</strong> L'iCoding permet de gérer des projets d'une complexité supérieure avec des équipes plus réduites, car l'IA prend en charge les tâches répétitives (Boilerplate code).
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="build-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Écosystème et Outils</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Chronologie 2024-2026</h4>
+              <span>2024 - 2026</span>
+              <p class="timeline-text">
+                <strong>2024 - Assistance ponctuelle :</strong> L'IA aide à compléter des lignes de code simples (<em>GitHub Copilot, ChatGPT</em>).<br>
+                <strong>2025 - Éditeurs Contextuels :</strong> L'IA comprend l'intégralité du projet et modifie plusieurs fichiers (<em>Cursor, Windsurf</em>).<br>
+                <strong>2026 - Agents Autonomes :</strong> L'IA peut coder, tester et déployer une application de A à Z (<em>Lovable, Bolt.new, v0.dev</em>).<br><br>
+                <strong>Focus sur Cursor (L'outil de référence) :</strong> Cursor est un fork de VS Code qui a révolutionné la période 2025-2026. Il indexe l'intégralité du code local, permettant de poser des questions complexes sur l'architecture et d'appliquer des changements massifs par simple commande vocale ou textuelle.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Conclusion & Sources</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Avis personnel</h4>
+              <p class="timeline-text">
+                Le passage au Vibecoding et à l'iCoding représente l'évolution la plus importante du métier de développeur depuis l'invention des langages de haut niveau. Pour un étudiant en BTS SIO, la maîtrise de ces outils n'est plus une option mais une nécessité pour rester compétitif sur le marché de l'emploi en 2026.<br><br>
+                <strong>Sources de la veille :</strong><br>
+                - <em>Andrej Karpathy (X/Twitter)</em> : Théoricien du Vibecoding et ancien directeur IA chez Tesla.<br>
+                - <em>Blog Technique de Cursor.com</em> : Évolutions des IDE agentiques.<br>
+                - <em>The Pragmatic Engineer</em> : Analyses sur l'impact de l'IA dans la productivité des ingénieurs.<br>
+                - <em>Rapports Gartner 2026</em> : Sur l'adoption du "AI-Augmented Software Engineering".
+              </p>
+            </li>
+          </ol>
+        </section>
+
+      </article>
 
       <!--
         - #CONTACT
       -->
 
       <article class="contact" data-page="contact">
-
+        <br>
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
-
+          <h3 class="h3 form-title">Contactez-nous</h3>
+          <p class="service-item-text">
+            Envoyez-nous un message avec vos questions, commentaires ou besoins, <br>nous vous répondrons rapidement !
+          </p>
+          <br><br>
           <form action="#" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="fullname" class="form-input" placeholder="Nom complet" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Adresse e-mail" required data-form-input>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1140,6 +916,7 @@
 
       </article>
 
+      
     </div>
 
   </main>
@@ -1149,17 +926,17 @@
 
 
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+
 
   <!--
     - ionicon link
   -->
+
+
+  <script src="./assets/js/script.js"></script>
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>

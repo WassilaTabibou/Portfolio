@@ -205,6 +205,28 @@ const projectsData = [
     download: "#"
   },
   {
+    id: "parametrage-xls",
+    title: "Module de paramétrage d'envois xls",
+    date: "Juin 2025 - Juillet 2025",
+    subtitle: "Projet Entreprise",
+    headerImage: "./assets/images/parametrage_xls_1.png",
+    objective: "Fournir aux collaborateurs internes un outil permettant de configurer l'envoi automatisé de rapports clients (situation de commande, prix de revient). Le paramétrage inclut la sélection de l'entreprise cible, la définition des destinataires (jusqu'à 4 emails), le contenu du rapport (langue, inclusion de la facture, historique de jours) ainsi que sa planification précise (fréquence journalière/hebdomadaire/mensuelle et créneau horaire).",
+    description: "Développement Full-Stack d'une fonctionnalité métier intégrée à un portail extranet existant, réalisé en méthode Agile. L'interface utilisateur repose sur la surcharge d'un modèle de page sous forme de liste, offrant les fonctionnalités complètes de gestion : ajout, modification, duplication et suppression des paramétrages. L'interaction principale s'effectue via l'ouverture d'une popup interactive, techniquement structurée en plusieurs plans, qui guide l'utilisateur étape par étape pour la sélection de l'entreprise, la configuration des paramètres du document et la planification des envois. Côté Back-End, des procédures stockées assurent la lecture et l'enregistrement sécurisé de ces configurations en base de données, garantissant une liaison fiable et performante avec l'interface de saisie.",
+    technologies: ["WEBDEV", "WLangage", "Transact-SQL (T-SQL)", "Microsoft SQL Server"],
+    gallery: [
+      "./assets/images/parametrage_xls_1.png",
+      "./assets/images/parametrage_xls_2.png"
+    ],
+    skills: [
+      "Concevoir et développer une solution applicative",
+      "Gérer les données",
+      "Travailler en mode projet",
+      "Mettre à disposition des utilisateurs un service informatique"
+    ],
+    github: "#",
+    download: "#"
+  },
+  {
     id: "triexport",
     title: "Tri et exports Excel de blocs de télémétrie",
     subtitle: "Projet Entreprise",
@@ -238,21 +260,6 @@ const projectsData = [
       "Travailler en mode projet",
       "Mettre à disposition des utilisateurs un service informatique"],
     github: "https://github.com/WassilaTabibou/Projet-Piscine",
-    download: "#"
-  },
-  {
-    id: "appliouf",
-    title: "AppliOuf",
-    subtitle: "Projet Ecole",
-    headerImage: "./assets/images/project-5.png",
-    objective: "Développement d'une application lourde modulaire pour centraliser la gestion des ressources d'une entreprise.",
-    description: "Application Java utilisant l'orienté objet pour simuler la gestion de plusieurs services : RH (employés), commerce (produits, stocks) et relation client (cartes de fidélité, rendez-vous). Les données sont gérées via des collections Java.",
-    technologies: ["Java", "POO (Programmation Orientée Objet)", "Java Swing (Interface)"],
-    gallery: ["./assets/images/project-5.png"],
-    skills: ["Gérer le patrimoine informatique",
-      "Travailler en mode projet",
-      "Mettre à disposition des utilisateurs un service informatique"],
-    github: "https://github.com/WassilaTabibou/AppliOufAvril",
     download: "#"
   },
   {

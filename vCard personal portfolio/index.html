@@ -22,6 +22,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
@@ -161,15 +162,13 @@
       -->
 
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <a href="#accueil" class="navbar-link active" data-nav-link>Accueil</a>
+            <a href="#a propos" class="navbar-link active" data-nav-link>A Propos</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#mes documents" class="navbar-link" data-nav-link>Mes Documents</a>
+            <a href="#parcours" class="navbar-link" data-nav-link>Parcours</a>
           </li>
 
           <li class="navbar-item">
@@ -183,9 +182,7 @@
           <li class="navbar-item">
             <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
-
         </ul>
-
       </nav>
 
 
@@ -196,226 +193,155 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="accueil">
+      <article class="about active" data-page="a propos">
+
+        <header>
+          <h2 class="h2 article-title">A Propos</h2>
+        </header>
 
         <section class="about-text">
           <p>
-            Apprenante en deuxième année de BTS Services Informatiques aux Organisations (SIO) option SLAM (Solutions
-            Logicielles et Applications Métiers)
-            à l'école ESIC et en alternance avec SIFA LOGISTICS.
+            Je suis actuellement étudiante à ESIC en BTS SIO (Services Informatiques aux Organisations), dans l’option SLAM (Solutions Logicielles et Applications Métiers). Cette spécialisation me permet d’approfondir mes compétences en développement logiciel, conception d’applications et gestion de bases de données.<br><br>
+            Toujours en cours de formation , je souhaite à travers ce portfolio partager avec vous mon parcours, mes compétences techniques ainsi que les différents projets académiques que j’ai pu entreprendre jusqu’à présent.
           </p>
         </section>
 
+        <section class="bts-sio" style="margin-top: 35px;">
+          <h3 class="h3 service-title">Qu'est ce que le BTS SIO ?</h3>
+          
+          <p style="line-height: 1.8; color: var(--light-gray); font-size: 15px; margin-top: 15px; margin-bottom: 25px;">
+            Le Brevet de Technicien Supérieur Services Informatiques aux Organisations (BTS SIO) s’adresse à celles et ceux qui souhaitent se former en deux ans aux métiers de l’informatique, soit dans le développement d’applications, soit dans l’administration des réseaux et des systèmes.<br><br>
+            Cette formation permet d’acquérir des compétences techniques et professionnelles solides afin d’intégrer directement le marché du travail ou de poursuivre des études dans le domaine de l’informatique (licence, école d’ingénieurs, etc.).
+          </p>
 
-        <!--
-          - competences dans accueil
-        -->
+          <ul class="service-list" style="display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
 
-        <section class="competences">
-
-          <h3 class="h3 service-title">Mes compétences</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+            <li class="service-item" style="align-items: flex-start; padding: 25px; height: 100%;">
+              <div class="service-icon-box" style="margin-top: 5px;">
+                <ion-icon name="server-outline" style="font-size: 26px; color: var(--orange-yellow-crayola);"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Langages de programmation</h4>
-
-                <p class="service-item-text">
-                  Maîtrise de HTML, CSS, JavaScript, PHP et Java pour le développement front-end et back-end.
+                <h4 class="h4 service-item-title" style="margin-bottom: 12px;">Option SISR</h4>
+                <p class="service-item-text" style="line-height: 1.7; color: var(--light-gray); font-size: 14px;">
+                  L’option Solutions d’Infrastructure, Systèmes et Réseaux (SISR) forme des professionnels capables de déployer, administrer et sécuriser les réseaux et équipements informatiques d’une organisation.<br><br>
+                  Les diplômés de cette option sont en mesure de gérer les serveurs, assurer la maintenance et veiller à la sécurité du système d’information.<br><br>
+                  <strong style="color: var(--orange-yellow-crayola);">Débouchés possibles :</strong><br>
+                  • Administrateur systèmes et réseaux<br>
+                  • Technicien d’infrastructure<br>
+                  • Informaticien support et déploiement<br>
+                  • Pilote d’exploitation<br>
+                  • Support systèmes et réseaux<br>
+                  • Technicien de production<br>
+                  • Technicien micro et réseaux
                 </p>
               </div>
-
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            <li class="service-item" style="align-items: flex-start; padding: 25px; height: 100%;">
+              <div class="service-icon-box" style="margin-top: 5px;">
+                <ion-icon name="code-slash-outline" style="font-size: 26px; color: var(--orange-yellow-crayola);"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Gestion de projets</h4>
-
-                <p class="service-item-text">
-                  Expérience avec Trello et Wrike pour la gestion agile, planification et organisation des tâches.
+                <h4 class="h4 service-item-title" style="color: var(--orange-yellow-crayola); margin-bottom: 12px;">Option SLAM (Option choisie)</h4>
+                <p class="service-item-text" style="line-height: 1.7; color: var(--light-gray); font-size: 14px;">
+                  L’option Solutions Logicielles et Applications Métiers (SLAM) forme des spécialistes du développement d’applications adaptées aux besoins des entreprises.<br><br><br>
+                  Elle couvre tout le cycle de vie d’un logiciel : analyse des besoins, conception, développement, tests et intégration dans le système d’information.<br><br>
+                  <strong style="color: var(--orange-yellow-crayola);">Débouchés possibles :</strong><br>
+                  • Développeur d’applications informatiques<br>
+                  • Développeur web ou mobile<br>
+                  • Analyste programmeur<br>
+                  • Analyste d’applications ou d’études<br>
+                  • Programmeur analyste<br>
+                  • Responsable des services applicatifs<br>
+                  • Technicien d’études informatiques
                 </p>
               </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Techniques (Soft Skills Techniques)</h4>
-
-                <p class="service-item-text">
-                  Node.js, T-SQL, Vue.js, Java, PHP, Javascript, WLanguage
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Interpersonnelles (Soft Skills)</h4>
-
-                <p class="service-item-text">
-                  Polyvalence technologique, Esprit d'équipe et collaboration,Gestion des priorités
-                </p>
-              </div>
-
             </li>
 
           </ul>
-
         </section>
 
         <br><br>
-        <!--
-          - Experience dans accueil
-        -->
-        <section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Mon Experience</h3>
+        <section class="projets">
+          <div class="title-wrapper" style="margin-bottom: 20px;">
+            <h3 class="h3">Attestations, Rapports, et Certifications</h3>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">SIFA LOGISTICS</h4>
-              <span>2025 - 2026</span>
-
-              <p class="timeline-text">
-                En tant qu’Apprentie Web Developer chez SIFA LOGISTICS, je participe au
-                développement de solutions logicielles. J'interviens à la fois sur le front-end et
-                le back-end des applications, tout en veillant à la qualité de l'expérience utilisateur. Cette
-                alternance me permet d'appliquer les compétences acquises en BTS SIO option SLAM et de me
-                professionnaliser dans le domaine du développement fullstack.
-              </p>
-
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn="all">All</button>
             </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Mon Cursus Scolaire</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">ESIC</h4>
-
-              <span>2024 - 2026</span>
-
-              <p class="timeline-text">
-                BTS SIO (Services Informatiques aux Organisations), spécialité SLAM (Solutions Logicielles et
-                Applications Métiers) à l’école ESIC. Cette formation me permet d’apprendre à concevoir, développer et
-                maintenir des applications informatiques. J’y développe des compétences techniques en programmation
-                (Java, PHP, Angular), en gestion de bases de données (SQL), en conception UML, ainsi qu’en sécurité des
-                systèmes d’information. Ce cursus est complété par mon alternance, qui me permet de mettre en pratique
-                mes acquis sur des projets concrets en entreprise.
-              </p>
-
+            <li class="filter-item">
+              <button data-filter-btn>Rapports</button>
             </li>
-
-          </ol>
-
-        </section>
-
-
-
-
-        <br>
-        <!--
-          - outils et technologies dans accueil
-        -->
-
-        <section class="outils">
-
-          <h3 class="h3 outils-title">Outils et Technologies</h3>
-
-          <ul class="outils-list has-scrollbar">
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-java.png" alt="outils logo">
-              </a>
+            <li class="filter-item">
+              <button data-filter-btn>Attestations</button>
             </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-php.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-javascript.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-html.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-css.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-mysql.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-github.png" alt="outils logo">
-              </a>
-            </li>
-
-            <li class="outils-item">
-              <a href="#">
-                <img src="./assets/images/logo-phpmyadmin.png" alt="outils logo">
-              </a>
-            </li>
-
           </ul>
 
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Rapports</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Attestations</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="document-list">
+            <li class="document-item active" data-filter-item data-category="rapports">
+              <a href="./assets/documents/RAPPORT DE STAGE.docx" download>
+                <figure class="document-img">
+                  <div class="document-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/image rapport de stage.png" alt="Rapport de stage" loading="lazy">
+                </figure>
+                <h3 class="document-title">Rapport de Stage 1ère Année</h3>
+                <p class="document-category">Rapport</p>
+              </a>
+            </li>
+
+            <li class="document-item active" data-filter-item data-category="attestations">
+              <a href="./assets/documents/Wassila_AttestationStage.pdf" target="_blank">
+                <figure class="document-img">
+                  <div class="document-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/image attestation de stage.png" alt="Attestation de compétences" loading="lazy">
+                </figure>
+                <h3 class="document-title">Attestation de Stage</h3>
+                <p class="document-category">Attestation</p>
+              </a>
+            </li>
+
+            <li class="document-item active" data-filter-item data-category="attestations">
+              <a href="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.xlsx" target="_blank">
+                <figure class="document-img">
+                  <div class="document-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.png" alt="Fiche de synthèse E5" loading="lazy">
+                </figure>
+                <h3 class="document-title">Fiche de Synthèse E5</h3>
+                <p class="document-category">Attestation</p>
+              </a>
+            </li>
+          </ul>
         </section>
 
       </article>
@@ -428,126 +354,125 @@
         - #mes documents
       -->
 
-      <article class="mes documents" data-page="mes documents">
+      <article class="parcours" data-page="parcours">
 
         <br>
         <header>
-          <h2 class="h2 article-title">Mes Documents</h2>
+          <h2 class="h2 article-title">Parcours</h2>
         </header>
 
-        <section class="projets">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn="all">All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Rapports</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Attestations</button>
-            </li>
-
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Rapports</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Attestations</button>
-              </li>
-
-
-            </ul>
-
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Mon Experience</h3>
           </div>
 
-          <ul class="document-list">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SIFA LOGISTICS</h4>
+              <span>2025 - 2026</span>
+              <p class="timeline-text">
+                En tant qu’Apprentie Web Developer chez SIFA LOGISTICS, je participe au
+                développement de solutions logicielles. J'interviens à la fois sur le front-end et
+                le back-end des applications, tout en veillant à la qualité de l'expérience utilisateur. Cette
+                alternance me permet d'appliquer les compétences acquises en BTS SIO option SLAM et de me
+                professionnaliser dans le domaine du développement fullstack.
+              </p>
+            </li>
+          </ol>
+        </section>
 
-            <li class="document-item  active" data-filter-item data-category="rapports">
-              <a href="./assets/documents/RAPPORT DE STAGE.docx" download>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Mon Cursus Scolaire</h3>
+          </div>
 
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ESIC</h4>
+              <span>2024 - 2026</span>
+              <p class="timeline-text">
+                J’ai choisi le BTS SIO pour renforcer mes compétences en développement et en gestion de solutions logicielles, tout en me préparant à une future carrière dans le domaine des technologies de l’information.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BAC Général Spécialités Mathématiques et Numerique et Sciences de l'Informatique(NSI) - Lycée Louis Armand Nogent-sur-Marne</h4>
+              <span>2022 - 2024</span>
+              <p class="timeline-text">
+                Après ma seconde, j’ai choisi un Bac général avec les spécialités Mathématiques et Numérique et Sciences de l'Informatique (NSI), qui m’a permis d’acquérir des bases solides en logique, en algorithmique et en développement, et de préparer la poursuite de mes études en informatique appliquée aux organisations.
+              </p>
+          </ol>
+        </section>
 
-                  <img src="./assets/images/image rapport de stage.png" alt="Rapport de stage" loading="lazy">
-                </figure>
+        <br>
 
-                <h3 class="document-title">Rapport de Stage 1ère Année</h3>
+        <section class="outils">
+          <h3 class="h3 outils-title">Outils et Technologies</h3>
+          <br>
+          <ul class="outils-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; padding: 0;">
 
-                <p class="document-category">Rapport</p>
-
-              </a>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-html5-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">HTML5</span>
             </li>
 
-
-
-            <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="./assets/documents/Wassila_AttestationStage.pdf" target="_blank">
-
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/image attestation de stage.png" alt="Attestation de compétences"
-                    loading="lazy">
-                </figure>
-
-                <h3 class="document-title">Attestation de Stage</h3>
-
-                <p class="document-category">Attestation</p>
-
-              </a>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-css3-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">CSS3</span>
             </li>
 
-            <li class="document-item  active" data-filter-item data-category="attestations">
-              <a href="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.xlsx" target="_blank">
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-javascript-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">JavaScript</span>
+            </li>
 
-                <figure class="document-img">
-                  <div class="document-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-bootstrap-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Bootstrap</span>
+            </li>
 
-                  <img src="./assets/images/Epreuve E5 - Tableau de synthese TABIBOU Wassila.png" alt="Fiche de synthèse E5" loading="lazy">
-                </figure>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-vuejs-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Vue.js</span>
+            </li>
 
-                <h3 class="document-title">Fiche de Synthèse E5</h3>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-nodejs-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Node.js</span>
+            </li>
 
-                <p class="document-category">Attestation</p>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-php-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">PHP</span>
+            </li>
 
-              </a>
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-java-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Java</span>
+            </li>
+
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-mysql-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">MySQL / phpMyAdmin</span>
+            </li>
+
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-github-original colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Git / GitHub</span>
+            </li>
+
+            <li class="outils-item" style="background: var(--border-gradient-onyx); border: 1px solid var(--jet); border-radius: 12px; padding: 20px 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; box-shadow: var(--shadow-2);">
+              <i class="devicon-postman-plain colored" style="font-size: 50px;"></i>
+              <span style="color: white; font-weight: 500; font-size: 15px; text-align: center;">Postman</span>
             </li>
 
           </ul>
-
         </section>
-
 
       </article>
 
@@ -662,6 +587,17 @@
               <p class="projet-category">Projet Entreprise</p>
             </li>
 
+            <li class="projet-item  active" data-filter-item data-category="projets entreprise" data-project-item>
+              <figure class="projet-img">
+                <div class="projet-item-icon-box" data-project="parametrage-xls" style="cursor: pointer;">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/parametrage_xls_1.png" alt="parametrage-xls" loading="lazy">
+              </figure>
+              <h3 class="projet-title">Module de paramétrage d'envois xls</h3>
+              <p class="projet-category">Projet Entreprise</p>
+            </li>
+
             <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
               <figure class="projet-img">
                 <div class="projet-item-icon-box" data-project="piscine" style="cursor: pointer;">
@@ -673,16 +609,6 @@
               <p class="projet-category">Projet Ecole</p>
             </li>
 
-            <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
-              <figure class="projet-img">
-                <div class="projet-item-icon-box" data-project="appliouf" style="cursor: pointer;">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
-                <img src="./assets/images/project-5.png" alt="appliouf" loading="lazy">
-              </figure>
-              <h3 class="projet-title">AppliOuf</h3>
-              <p class="projet-category">Projet Ecole</p>
-            </li>
 
             <li class="projet-item  active" data-filter-item data-category="projets ecole" data-project-item>
               <figure class="projet-img">
@@ -778,100 +704,64 @@
           <h2 class="h2 article-title">Veille Technologique</h2>
         </header>
 
-        <section class="about-text">
+        <section class="about-text" style="margin-bottom: 30px;">
           <p>
-            <strong>Sujet :</strong> L’émergence du Vibecoding et la mutation du métier de développeur vers l’iCoding (2024 – 2026).<br><br>
-            Cette veille porte sur la transformation radicale des méthodes de développement logiciel sous l'impulsion de l'Intelligence Artificielle générative. On observe un passage d'un codage "manuel" et syntaxique à un pilotage "agentique" où l'intention du développeur prime sur l'écriture des lignes de code.
+            <strong>Sujet de Veille :</strong> L’émergence du Vibecoding et la mutation du métier de développeur vers l’iCoding (2024 – 2026).<br><br>
+            Popularisé par <strong>Andrej Karpathy</strong> (ex-OpenAI / Tesla) <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Source : X/Twitter]</span>, le <em>Vibecoding</em> désigne un flux de travail où le développeur pilote des modèles d'IA en langage naturel pour générer des applications. Face à cette rupture, comment un développeur junior peut-il rester indispensable avant d'entrer sur le marché du travail ?
           </p>
         </section>
 
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="hardware-chip-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Thématique 1 : Le Vibecoding (L'ère du "Flux")</h3>
-          </div>
+        <section class="competences">
+          <ul class="service-list">
 
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">L'émergence</h4>
-              <span>2024 - 2025</span>
-              <p class="timeline-text">
-                Apparu massivement entre 2024 et 2025, le Vibecoding définit une nouvelle manière d'interagir avec les outils de développement.<br><br>
-                <strong>Définition :</strong> Le terme "Vibecoding" (popularisé par Andrej Karpathy) désigne un flux de travail où le développeur ne se concentre plus sur la syntaxe, mais sur la "vibe" (l'intention et le résultat visuel/fonctionnel).<br><br>
-                <strong>Manipulation par "Pans" :</strong> Contrairement au codage traditionnel, le développeur demande à l'IA de générer ou de modifier des "pans" (blocs entiers) de code d'un seul coup (ex: tout un système de gestion d'utilisateurs).<br><br>
-                <strong>Itération par Flux :</strong> Le cycle de développement devient une conversation. On demande une modification en langage naturel, on teste immédiatement, et on ajuste la requête jusqu'à satisfaction.
-              </p>
+            <li class="service-item" style="align-items: flex-start; padding: 25px; height: 100%;">
+              <div class="service-icon-box" style="margin-top: 5px;">
+                <ion-icon name="rocket-outline" style="font-size: 26px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="color: var(--orange-yellow-crayola); margin-bottom: 12px;">Les Opportunités (Le Levier)</h4>
+                <p class="service-item-text" style="line-height: 1.7; color: var(--light-gray);">
+                  <strong>• Prototypage ultra-rapide :</strong> Génération instantanée de maquettes et d'interfaces utilisateur fonctionnelles.<br><br>
+                  <strong>• Profil Full-Stack accéléré :</strong> Exploration simplifiée de frameworks et d'API complexes en sortant de sa zone de confort <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Source : Étude interne Anthropic]</span>.<br><br>
+                  <strong>• Compétence clé :</strong> Maîtriser le pilotage et le prompt des outils d'IA est devenu le nouvel équivalent de "savoir coder" <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Source : Sam Altman, CEO OpenAI]</span>.
+                </p>
+              </div>
             </li>
-          </ol>
+
+            <li class="service-item" style="align-items: flex-start; padding: 25px; height: 100%;">
+              <div class="service-icon-box" style="margin-top: 5px;">
+                <ion-icon name="warning-outline" style="font-size: 26px; color: #ff5555;"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" style="color: #ff5555; margin-bottom: 12px;">Les Menaces (Le Piège)</h4>
+                <p class="service-item-text" style="line-height: 1.7; color: var(--light-gray);">
+                  <strong>• Syndrome du "Accept All" :</strong> Dépendance aveugle à un code généré qualifié de "stagiaire", souvent désordonné et porteur de dettes techniques <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Source : Andrej Karpathy]</span>.<br><br>
+                  <strong>• Perte de profondeur technique :</strong> Risque de copier sans comprendre le fond, rendant le développeur incapable d'auditer ou de sécuriser son application <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Source : Retours ingénieurs Anthropic]</span>.<br><br>
+                  <strong>• Évolution du marché :</strong> Compression des effectifs sur les tâches de développement pur au profit d'un besoin accru en supervision <span style="color: var(--orange-yellow-crayola); font-weight: 500;">[Sources : Sam Altman & Dario Amodei]</span>.
+                </p>
+              </div>
+            </li>
+
+          </ul>
         </section>
 
+        <br><br>
         <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="code-working-outline"></ion-icon>
+          <div class="title-wrapper" style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+            <div class="icon-box" style="color: var(--orange-yellow-crayola); display: flex; align-items: center; justify-content: center;">
+              <ion-icon name="shield-checkmark-outline" style="font-size: 22px;"></ion-icon>
             </div>
-            <h3 class="h3">Thématique 2 : L'iCoding (Le métier en 2026)</h3>
+            <h3 class="h3">Impact sur le développeur junior</h3>
           </div>
 
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Le Développeur "Chef d'Orchestre"</h4>
-              <span>2026</span>
-              <p class="timeline-text">
-                En 2026, le concept d'iCoding (Intelligent Coding) est devenu la norme. Le métier de développeur ne disparaît pas, il devient "augmenté".<br><br>
-                La rédaction de code ne représente plus que 20% du temps de travail. Les 80% restants sont dédiés à la conception d'architecture et au pilotage d'agents IA.<br><br>
-                <strong>L’audit comme compétence n°1 :</strong> Puisque l'IA génère la majorité du code, la valeur ajoutée du développeur réside dans sa capacité à lire, auditer et sécuriser les fichiers générés pour éviter la dette technique et les failles de sécurité.<br><br>
-                <strong>Abstraction de la complexité :</strong> L'iCoding permet de gérer des projets d'une complexité supérieure avec des équipes plus réduites, car l'IA prend en charge les tâches répétitives (Boilerplate code).
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="build-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Écosystème et Outils</h3>
+          <div class="service-item" style="padding: 25px; background: var(--border-gradient-onyx); border-radius: 14px;">
+            <p class="service-item-text" style="line-height: 1.7; color: var(--light-gray); font-size: 15px;">
+              Le <strong>Vibecoding</strong> doit être appréhendé comme un outil d'augmentation et non de remplacement pour les profils juniors. La valeur ajoutée d'un développeur ne réside plus dans la pure rédaction syntaxique, mais dans sa capacité stratégique à <strong>superviser, auditer et sécuriser</strong> les solutions logicielles générées par la machine.<br><br>
+              L'enjeu majeur pour l'insertion sur le marché de l'emploi est d'associer la vitesse d'itération des outils IA à une rigueur algorithmique et logique stricte. Chaque bloc de code intégré doit être scrupuleusement analysé, testé et compris, garantissant ainsi la pérennité, la maintenabilité et la sécurité du patrimoine informatique des organisations.
+            </p>
           </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Chronologie 2024-2026</h4>
-              <span>2024 - 2026</span>
-              <p class="timeline-text">
-                <strong>2024 - Assistance ponctuelle :</strong> L'IA aide à compléter des lignes de code simples (<em>GitHub Copilot, ChatGPT</em>).<br>
-                <strong>2025 - Éditeurs Contextuels :</strong> L'IA comprend l'intégralité du projet et modifie plusieurs fichiers (<em>Cursor, Windsurf</em>).<br>
-                <strong>2026 - Agents Autonomes :</strong> L'IA peut coder, tester et déployer une application de A à Z (<em>Lovable, Bolt.new, v0.dev</em>).<br><br>
-                <strong>Focus sur Cursor (L'outil de référence) :</strong> Cursor est un fork de VS Code qui a révolutionné la période 2025-2026. Il indexe l'intégralité du code local, permettant de poser des questions complexes sur l'architecture et d'appliquer des changements massifs par simple commande vocale ou textuelle.
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Conclusion & Sources</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Avis personnel</h4>
-              <p class="timeline-text">
-                Le passage au Vibecoding et à l'iCoding représente l'évolution la plus importante du métier de développeur depuis l'invention des langages de haut niveau. Pour un étudiant en BTS SIO, la maîtrise de ces outils n'est plus une option mais une nécessité pour rester compétitif sur le marché de l'emploi en 2026.<br><br>
-                <strong>Sources de la veille :</strong><br>
-                - <em>Andrej Karpathy (X/Twitter)</em> : Théoricien du Vibecoding et ancien directeur IA chez Tesla.<br>
-                - <em>Blog Technique de Cursor.com</em> : Évolutions des IDE agentiques.<br>
-                - <em>The Pragmatic Engineer</em> : Analyses sur l'impact de l'IA dans la productivité des ingénieurs.<br>
-                - <em>Rapports Gartner 2026</em> : Sur l'adoption du "AI-Augmented Software Engineering".
-              </p>
-            </li>
-          </ol>
         </section>
 
       </article>

@@ -134,14 +134,11 @@ const projectsData = [
     subtitle: "Web & Mobile Development",
     headerImage: "./assets/images/Coreflow.png",
     objective: "Concevoir et développer un portail intranet collaboratif moderne (Backend, Web et Mobile), avec une gestion centralisée des documents et des droits d'accès.",
-    description: "Mise en place suivi de consultation individuel(croisement ID du document avec l'historique de l'utilisateur connecté), Téléchargement Mobile et Permissions(API Filesystem de Capacitor pour formater fichier), Filtrage dynamique et utilisation jetons JWT pour verifier identité utilisateur a chaque requete (tes tests d'API avec Postman (pour vérifier les retours JSON) et tes tests automatisés avec Jest (pour vérifier que l'API bloque bien les accès non autorisés avec une erreur 401).",
+    description: "CoreFlow est une application intranet collaborative développée avec une architecture découplée, s'appuyant sur Vue.js pour le front-end et Node.js/Express pour l'API back-end, reliée à une base de données MySQL. La sécurité globale de la plateforme est assurée par le standard JWT (JSON Web Token), garantissant l'authentification et le contrôle strict des accès aux ressources du serveur. Au sein de cet écosystème, le module de gestion documentaire permet la consultation, le filtrage dynamique par service et la gestion sécurisée des documents d'entreprise en fonction des habilitations de chaque utilisateur.",
     technologies: [
-      "Vue.js 3", 
-      "Node.js / Express", 
+      "Vue.js", 
+      "Node.js", 
       "MySQL", 
-      "Capacitor (Android Natif)", 
-      "Multer (Gestion de fichiers)", 
-      "JWT (Sécurité)"
     ],
     gallery: [
       "./assets/images/Coreflow.png",
@@ -152,12 +149,6 @@ const projectsData = [
         "./assets/images/Capture d'écran 2026-04-22 083953.png"
       /* N'hésite pas à ajouter d'autres images ici si tu as des captures mobiles ! */
     ],
-   skills : [
-      "Concevoir et développer une solution applicative",
-      "Gérer les données",
-      "Sécuriser les équipements et les usages des utilisateurs",
-      "Répondre aux incidents et aux demandes d’assistance et d’évolution"
-    ],
     github: "https://github.com/WassilaTabibou/TonRepoCoreFlow", /* Remplace par ton vrai lien GitHub ! */
     download: "#" /* Si tu as un exécutable .apk ou un lien, tu peux le mettre ici */
   },
@@ -166,7 +157,7 @@ const projectsData = [
     title: "Modèle de champ obligatoire",
     date: "Fevrier 2026 - Mars 2026",
     subtitle: "Projet Entreprise",
-    headerImage: "./assets/images/gallery_ChampObligatoire1.png",
+    headerImage: "./assets/images/Gallery_ChampObligatoire1.png",
     objective: "Améliorer l'Expérience Utilisateur (UX) et sécuriser la saisie des données en concevant un système de validation de formulaire en temps réel, via un composant dynamique et réutilisable.",
     description: "Développement d'un modèle de champ autonome en WEBDEV avec feedback visuel dynamique (adaptation CSS, icônes d'alerte). Mise en place d'une gestion d'état global du formulaire (via l'événement OnBlur) pour bloquer les soumissions erronées. Utilisation de la Programmation Orientée Objet (héritage, surcharge) pour adapter le composant à différents types de saisie (nom, email). Prise en charge de la maintenance corrective post-production suite à un ticket utilisateur : résolution d'un bug de saisie des noms composés par l'intégration d'une expression régulière (Regex) et optimisation des traitements côté client (JavaScript généré) pour éviter le rechargement des pages.",
     technologies: ["WEBDEV", "WLangage", "CSS"],
@@ -177,12 +168,6 @@ const projectsData = [
       "./assets/images/Gallery_ChampObligatoire3.png",
       "./assets/images/Gallery_ChampObligatoire5.png",
       "./assets/images/Gallery_ChampObligatoire4.png"
-    ],
-    skills: [
-      "Gérer le patrimoine informatique",
-      "Travailler en mode projet",
-      "Répondre aux incidents et aux demandes d’assistance et d’évolution",
-      "Mettre à disposition des services informatiques"
     ],
     github: "https://github.com/votre-pseudo/finance",
     download: "#"
@@ -196,32 +181,25 @@ const projectsData = [
     description: "Application web responsive dotée d'un système d'authentification et d'un catalogue interactif. Elle permet de rechercher des jeux et de gérer une liste de favoris en temps réel grâce à des requêtes asynchrones (AJAX), offrant une navigation fluide sans rechargement de page.",
     technologies: ["PHP", "MySQL", "JavaScript (Fetch API)", "Bootstrap 5", "HTML5/CSS3"],
     gallery: ["./assets/images/Gallery_gamehub1.png" , "./assets/images/Gallery_gamehub2.png"],
-    skills: [
-      "Gérer le patrimoine informatique",
-      "Développer la présence en ligne de l’organisation",
-      "Travailler en mode projet",
-      "Mettre à disposition des utilisateurs un service informatique"],
     github: "https://github.com/WassilaTabibou/Projet-GameHub",
     download: "#"
   },
   {
     id: "parametrage-xls",
     title: "Module de paramétrage d'envois xls",
-    date: "Juin 2025 - Juillet 2025",
+    date: "2025 - 2026",
     subtitle: "Projet Entreprise",
-    headerImage: "./assets/images/parametrage_xls_1.png",
+    headerImage: "./assets/images/Capture d'écran 2026-02-03 101811.png",
     objective: "Fournir aux collaborateurs internes un outil permettant de configurer l'envoi automatisé de rapports clients (situation de commande, prix de revient). Le paramétrage inclut la sélection de l'entreprise cible, la définition des destinataires (jusqu'à 4 emails), le contenu du rapport (langue, inclusion de la facture, historique de jours) ainsi que sa planification précise (fréquence journalière/hebdomadaire/mensuelle et créneau horaire).",
     description: "Développement Full-Stack d'une fonctionnalité métier intégrée à un portail extranet existant, réalisé en méthode Agile. L'interface utilisateur repose sur la surcharge d'un modèle de page sous forme de liste, offrant les fonctionnalités complètes de gestion : ajout, modification, duplication et suppression des paramétrages. L'interaction principale s'effectue via l'ouverture d'une popup interactive, techniquement structurée en plusieurs plans, qui guide l'utilisateur étape par étape pour la sélection de l'entreprise, la configuration des paramètres du document et la planification des envois. Côté Back-End, des procédures stockées assurent la lecture et l'enregistrement sécurisé de ces configurations en base de données, garantissant une liaison fiable et performante avec l'interface de saisie.",
     technologies: ["WEBDEV", "WLangage", "Transact-SQL (T-SQL)", "Microsoft SQL Server"],
     gallery: [
-      "./assets/images/parametrage_xls_1.png",
-      "./assets/images/parametrage_xls_2.png"
-    ],
-    skills: [
-      "Concevoir et développer une solution applicative",
-      "Gérer les données",
-      "Travailler en mode projet",
-      "Mettre à disposition des utilisateurs un service informatique"
+      "./assets/images/unnamed.png",
+      "./assets/images/Capture d'écran 2026-02-03 113034.png",
+      "./assets/images/Capture d'écran 2025-10-06 111141.png",
+      "./assets/images/Capture d'écran 2026-02-03 113046.png",
+      "./assets/images/Capture d'écran 2026-02-03 112105.png",
+      "./assets/images/Capture d'écran 2026-02-03 101811.png"
     ],
     github: "#",
     download: "#"
@@ -239,9 +217,6 @@ const projectsData = [
       , "./assets/images/Gallery_TriExport2.png"
       , "./assets/images/Gallery_TriExport4.png"
     ],
-    skills: ["Répondre aux incidents et aux demandes d’assistance et d’évolution", 
-      
-      "Mettre à disposition des utilisateurs un service informatique","Gérer le patrimoine informatique"],
     github: "#",
     download: "#"
   },
@@ -254,29 +229,7 @@ const projectsData = [
     description: "Système complet de réservation permettant aux utilisateurs de vérifier la disponibilité des ressources, d'effectuer des réservations et de gérer leur profil. Interface responsive réalisée avec Bootstrap.",
     technologies: ["PHP", "MySQL", "HTML5", "Bootstrap 5", "JavaScript"],
     gallery: ["./assets/images/gallery_GestionMateriel4.png", "./assets/images/Gallery_GestionMateriel1.png", "./assets/images/Gallery_GestionMateriel2.png", "./assets/images/Gallery_GestionMateriel3.png"],
-    skills: [
-      "Gérer le patrimoine informatique",
-      "Développer la présence en ligne de l’organisation",
-      "Travailler en mode projet",
-      "Mettre à disposition des utilisateurs un service informatique"],
     github: "https://github.com/WassilaTabibou/Projet-Piscine",
-    download: "#"
-  },
-  {
-    id: "freedommoney",
-    title: "Freedom Money",
-    subtitle: "Projet Ecole",
-    headerImage: "./assets/images/project-3.jpg",
-    objective: "Concevoir une application simulant un système bancaire complet avec gestion des rôles (Admin, Conseiller, Client) et des opérations financières sécurisées.",
-    description: "Application console en Java simulant la gestion d'une banque. Architecture MVC permettant à différents acteurs d'effectuer des opérations bancaires (création de compte, dépôt, virement) avec stockage des données en mémoire via des Collections.",
-    technologies: ["Java", "POO (Programmation Orientée Objet)", "Architecture MVC", "Collections (ArrayList)"],
-    gallery: ["./assets/images/project-3.jpg"],
-    skills: [
-      "Gérer le patrimoine informatique",
-      "Travailler en mode projet",
-      "Mettre à disposition des utilisateurs un service informatique",
-      "Organiser son développement professionnel"],
-    github: "https://github.com/WassilaTabibou/FreedomMoney",
     download: "#"
   },
 ];
@@ -416,14 +369,6 @@ const showProjectDetails = (projectId) => {
       <div class="tech-stack">
         ${project.technologies.map(tech => `<span class="tech-badge">${tech}</span>`).join('')}
       </div>
-    </section>
-    <section class="detail-section">
-      <h4 class="h4 item-title">Compétences Mobilisées (E5)</h4>
-      <ul class="skill-list">
-        ${project.skills.map(skill => `
-          <li><ion-icon name="checkmark-circle-outline"></ion-icon> ${skill}</li>
-        `).join('')}
-      </ul>
     </section>
   `;
 
